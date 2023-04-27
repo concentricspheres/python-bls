@@ -44,5 +44,5 @@ sudo installer -pkg $PYPKG_NAME -target /
 rm $PYPKG_NAME $PYPKG_NAME.sha256
 
 mkdir gmp
-cp /usr/local/Cellar/gmp/*/lib/libgmp.a gmp/
-cp /usr/local/Cellar/gmp/*/include/gmp.h gmp/
+cp /opt/homebrew/Cellar/gmp/*/lib/libgmp.a gmp/
+cp /opt/homebrew/Cellar/gmp/*/include/gmp.h gmp/
